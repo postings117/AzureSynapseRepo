@@ -2,7 +2,7 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "Select * from sales",
+			"query": "Select * from sales\nwhere SalesOrderNumber = 1",
 			"metadata": {
 				"language": "sql"
 			},
